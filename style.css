@@ -1,0 +1,341 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.title{
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 75%;
+    font-size: 16px;
+    border: 5px  solid #000000;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 10px 10px grey;
+}
+ 
+.boxes{
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+     
+}
+.col-1{
+    margin: 20px 10px;    
+    height: 480px;
+    width: 85%;
+    border: 3px solid white;
+    background-color: #182a5c;
+    box-shadow:5px 10px 15px #686666;
+  
+}
+ 
+.heading{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: center;
+    color: white;
+    font-family: cursive;font-size: 35px;
+}
+ 
+img{
+    max-width: 42%;
+    height: 25%;
+    position: relative;
+    top: 35px;
+    border:1px solid white; 
+    
+}
+ 
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}
+.content{
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;   
+    color:white;
+}
+ 
+.book{
+   font-size: 35px;
+   text-align:center;
+   margin-top: 70px;
+   border: 2px solid rgb(255, 255, 255);width:100%;height: 45px;
+   color: white;
+   background-color: #000000;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .title{
+        margin: auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        height: 60px;
+        width: 60%;
+        font-size: 20px;
+        border: 5px  solid #000000;
+        padding: 10px;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px grey;
+    }
+     
+    .boxes{
+        margin: 20px;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .col-1{
+        margin: 20px 10px;         
+        height: 480px;
+        width: 85%;
+        border: 3px solid white;
+        background-color: #2a185c;
+        box-shadow:5px 10px 15px #686666;
+    }
+     
+    .heading{
+        margin-top: 10px;
+        margin-bottom: -10px;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+     
+    img{
+        max-width: 30%;
+        height: 25%;
+        position: relative;
+        top: 35px;
+        border:1px solid white; 
+        
+    }
+     
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .content{
+        margin-top: 40px;
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;       
+        color:white;
+    }
+     
+    .book{
+       font-size: 35px;
+       text-align:center;
+       margin-top: 70px;
+       border: 2px solid rgb(255, 255, 255);width:105%;height: 45px;
+       color: white;
+       background-color: #000000;
+       
+    }
+     
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768x) {
+    .title{
+        margin: auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        height: 60px;
+        width: 60%;
+        font-size: 20px;
+        border: 5px  solid #000000;
+        padding: 10px;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px grey;
+    }
+     
+    .boxes{
+        margin: 20px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+         
+    }
+    .col-1{
+        margin: 20px 10px;         
+        height: 470px;
+        width: 35%;
+        border: 3px solid white;
+        background-color: #2a185c;
+        box-shadow:5px 10px 15px #686666;
+      
+    }
+     
+    .heading{
+        margin-top: 10px;
+        margin-bottom: -10px;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+     
+    img{
+        max-width: 10%;height: 20%;
+        position: relative;top: 20px;
+        border:1px solid white; 
+        
+    }
+     
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .content{
+        margin-top: 40px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;       
+        color:white;
+    }
+     
+    .book{
+       font-size: 40px;
+       text-align: center;
+       margin-top: 70px;
+       border: 2px solid rgb(255, 255, 255);
+       width:110%;
+       height: 50px;
+       color: white;
+       background-color: #000000;
+       
+    }
+     
+}
+  
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .title{
+        margin: auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        height: 60px;
+        width: 60%;
+        font-size: 20px;
+        border: 5px  solid #000000;
+        padding: 10px;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px grey;
+    }
+     
+    .boxes{
+        margin: 20px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: space-between;
+         
+    }
+    .col-1{
+        margin: 20px 10px;
+        height: 420px;
+        width: 45%;
+        border: 3px solid white;
+        background-color: #2a185c;
+        box-shadow: 5px 10px 15px #686666;
+      
+    }
+     
+    .heading{
+        margin-top: 10px;
+        margin-bottom: -10px;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+     
+    img{
+        max-width: 40%;height: 30%;
+        position: relative;top: 20px;
+        border:1px solid white; 
+        
+    }
+     
+    .box{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .content{
+        margin-top: 40px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;       
+        color:white;
+    }
+     
+    .book{
+       font-size: 40px;
+       text-align: center;
+       margin-top: 70px;
+       border: 2px solid rgb(255, 255, 255);width:100%;height: 45px;
+       color: white;
+       background-color: #000000;
+       
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .col-1 {
+        margin: 20px 10px;
+        height: 450px;
+        width: 45%;
+        border: 3px solid white;
+        background-color: #2a185c;
+        box-shadow: 5px 10px 15px #686666;
+    }
+    img{
+        max-width: 40%;
+    }
+}
+ /*
+ XX-Large devices (larger desktops, 1400px and up)*/
+ @media (min-width: 1400px) { 
+    .boxes{
+        margin: 20px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      justify-content:space-around;      
+    }
+    .col-1{
+       margin: 20px 10px;
+       height: 350px;
+       width: 23%;
+       border: 3px solid white;
+       background-color: #2a185c;
+       box-shadow: 5px 10px 15px #686666;
+     
+    }
+    .book{
+        font-size: 25px;
+        width:80%;
+        height: 40px;
+    }
+  } 
